@@ -199,60 +199,68 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="mb-20">
-            <h2 class="section-header text-3xl font-bold text-gray-800">Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="project-card p-6 rounded-xl">
-                    <div class="flex items-center justify-center mb-4">
-                        <i class="fas fa-chart-line text-5xl text-indigo-600"></i>
+<section id="projects" class="section mb-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8">Projects</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Startup Funding Analysis Project -->
+            <div class="bg-white rounded-xl shadow-lg p-6 transition-transform duration-300 hover:scale-105">
+                <h3 class="text-xl font-bold text-center mb-4">Startup Funding Analysis</h3>
+                <div class="space-y-4">
+                    <p class="text-gray-600">An interactive Streamlit web application analyzing startup funding trends across India.</p>
+                    <div class="space-y-2">
+                        <h4 class="font-semibold">Key Features:</h4>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Comprehensive funding analysis across sectors</li>
+                            <li>Interactive visualizations and insights</li>
+                            <li>Startup ecosystem trends</li>
+                        </ul>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-4">Real-Time Stock Price Tracker</h3>
-                    <p class="text-gray-600">
-                        A Python-based application that provides real-time stock market data and automated price alerts.
-                        Features include:
-                    </p>
-                    <ul class="mt-4 space-y-2">
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-green-500 mr-2"></i>
-                            Live market data tracking
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-green-500 mr-2"></i>
-                            Custom price alerts
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-green-500 mr-2"></i>
-                            Technical analysis tools
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="project-card p-6 rounded-xl">
-                    <div class="flex items-center justify-center mb-4">
-                        <i class="fas fa-brain text-5xl text-purple-600"></i>
+                    <div class="mt-4">
+                        <a href="https://startupfundinganalysis-a.streamlit.app/" 
+                           target="_blank" 
+                           class="inline-block bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition-colors">
+                            View Live Demo
+                        </a>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-4">Text Analysis Application</h3>
-                    <p class="text-gray-600">
-                        A Flask-based web application with advanced text analysis capabilities.
-                        Features include:
-                    </p>
-                    <ul class="mt-4 space-y-2">
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-green-500 mr-2"></i>
-                            Sentiment Analysis
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-green-500 mr-2"></i>
-                            Named Entity Recognition
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-green-500 mr-2"></i>
-                            Content Moderation
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </section>
+
+            <!-- Real-Time Stock Price Tracker -->
+            <div class="bg-white rounded-xl shadow-lg p-6 transition-transform duration-300 hover:scale-105">
+                <h3 class="text-xl font-bold text-center mb-4">Real-Time Stock Price Tracker</h3>
+                <div class="space-y-4">
+                    <p class="text-gray-600">A Python-based application that provides real-time stock market data and automated price alerts.</p>
+                    <div class="space-y-2">
+                        <h4 class="font-semibold">Key Features:</h4>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Live market data tracking</li>
+                            <li>Custom price alerts</li>
+                            <li>Technical analysis tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Text Analysis Application -->
+            <div class="bg-white rounded-xl shadow-lg p-6 transition-transform duration-300 hover:scale-105">
+                <h3 class="text-xl font-bold text-center mb-4">Text Analysis Application</h3>
+                <div class="space-y-4">
+                    <p class="text-gray-600">A Flask-based web application with advanced text analysis capabilities.</p>
+                    <div class="space-y-2">
+                        <h4 class="font-semibold">Key Features:</h4>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Sentiment Analysis</li>
+                            <li>Named Entity Recognition</li>
+                            <li>Content Moderation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- Skills Section -->
         <section id="skills" class="mb-20">
